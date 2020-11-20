@@ -58,10 +58,12 @@
     font-size: 16px;
 }
 
-.header__option-cart {
+.header__option-cart a {
+    color: #ffffff;
+    text-decoration: none;
     flex-direction: row;
     align-items: center;
-
+    display: flex;
 }
 .total__in-cart {
     font-weight: 400;
