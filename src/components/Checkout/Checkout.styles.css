@@ -3,6 +3,8 @@
     padding: 20px;
     background-color: #fff;
     height: max-content;
+    width: 1200px;
+    margin: auto;
 }
 .checkout__ad {
     width: 100%;
@@ -13,4 +15,17 @@
     margin-right: 0.5rem;
     padding: 0.5rem;
     border-bottom: 1px solid lightgray;
+}
+
+.checkout__right {
+    margin-left: 20px;
+}
+.checkout__right h2 {
+    line-height: 1;
+    margin-bottom: .9rem;
+}
+
+.products__from-cart-wrapepr {
+    display: flex;
+    flex-direction: column;
 }
