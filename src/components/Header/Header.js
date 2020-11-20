@@ -4,6 +4,8 @@ import React from 'react';
 import './Header.styles.css';
 
 const Header = () => {
+    const [{basket}] = useStateValue();
+    
     return (
         <header className="header">
             <img className="header__logo" src="../../images/amazon.png" alt="Amazon"/>
