@@ -1,0 +1,22 @@
+.products__from-cart {
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+  
+.products__from-cart img {
+    width: 200px;
+    margin-right: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.cart__product-info h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333333;
+}
+
+.cart__product-info > button {
+    width: auto;
+    display: block;
+    padding: 0 2.32em;
+}

@@ -37,7 +37,7 @@ const ProductHome = ({id, title, image, price, rating}) => {
             </div>
             <img src={image} alt={title} />
 
-                <button onClick={addToBasket}>Add to Basket</button>
+                <button onClick={addToBasket} className="btn">Add to Basket</button>
         </div>
     );
 };
